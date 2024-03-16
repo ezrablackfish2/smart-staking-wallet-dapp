@@ -1,0 +1,27 @@
+.myBtn {
+  background-color: #202020;
+  background: radial-gradient(
+    circle at 52.1% -29.6%,
+    rgb(144, 17, 105) 0%,
+    rgb(51, 0, 131) 100.2%
+  );
+
+  margin: 0.4rem;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+
+  display: block;
+  border: 1px solid aliceblue;
+  border-radius: 25px;
+}
+
+.myBtn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 20px #eee;
+}
